@@ -1,0 +1,108 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: red;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .logo-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--gray-800);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+  
+  .logo-link:hover {
+    color: var(--gray-600);
+  }
+  
+  .nav-menu {
+    display: none;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .nav-menu {
+      display: flex;
+    }
+  }
+  
+  .nav-link {
+    color: var(--gray-600);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .nav-link:hover {
+    color: var(--gray-800);
+  }
+  
+  .cart-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--gray-800);
+    text-decoration: none;
+  }
+  
+  .cart-icon-wrapper {
+    position: relative;
+  }
+  
+  .cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: var(--danger-color);
+    color: blue;
+    font-size: 0.75rem;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .cart-info {
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .cart-info {
+      display: block;
+    }
+  }
+  
+  .cart-label {
+    display: block;
+    font-size: 0.875rem;
+  }
+  
+  .cart-total {
+    display: block;
+    font-size: 0.75rem;
+    color: var(--gray-600);}

@@ -1,0 +1,14 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Elektronik",
+        "slug": "elektronik"
+      },
+      {
+        "id": 2,
+        "name": "Giyim",
+        "slug": "giyim"
+      }
+    ]
+  }

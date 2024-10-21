@@ -1,0 +1,71 @@
+.cart-summary {
+    background-color: red;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 5rem;
+  }
+  
+  .summary-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-800);
+    margin-bottom: 1.5rem;
+  }
+  
+  .summary-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    color: var(--gray-600);
+  }
+  
+  .shipping-info {
+    font-size: 0.875rem;
+    color: var(--gray-600);
+    padding: 1rem 0;
+    border-top: 1px solid var(--gray-200);
+    border-bottom: 1px solid var(--gray-200);
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .summary-total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: var(--gray-800);
+    margin: 1.5rem 0;
+  }
+  
+  .checkout-button {
+    width: 100%;
+    padding: 0.875rem;
+    background-color: var(--primary-color);
+    color: red;
+    border: none;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    margin-bottom: 1rem;
+  }
+  
+  .checkout-button:hover {
+    background-color: var(--primary-hover);
+  }
+  
+  .continue-shopping {
+    display: block;
+    text-align: center;
+    color: var(--primary-color);
+    text-decoration: none;
+    font-size: 0.875rem;
+    padding: 0.5rem;
+  }
+  
+  .continue-shopping:hover {
+    text-decoration: underline;
+  }
